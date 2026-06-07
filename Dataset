@@ -1,29 +1,29 @@
 ### Dataset Information
 
-**Dataset Name:** Accident Detection from CCTV Footage
+Dataset Name:** Accident Detection from CCTV Footage
 
-**Dataset Source:** Kaggle
+Dataset Source: Kaggle
 
-**Dataset Link:** https://www.kaggle.com/datasets/ckay16/accident-detection-from-cctv-footage
+Dataset Link:  https://www.kaggle.com/datasets/ckay16/accident-detection-from-cctv-footage
 
-**Field:** Transportation and Traffic Intelligence
+Field: Transportation and Traffic Intelligence
 
-**Description:**
+Description:
 This dataset contains CCTV traffic surveillance images categorized into two classes: Accident and Non Accident. The images are collected from traffic monitoring footage and are intended for developing deep learning models that can automatically detect road accidents from visual data.
 
-**Classes:**
+Classes:
 
 1. Accident
 2. Non Accident
 
-**Image Type:**
+Image Type:
 Traffic surveillance/CCTV images
 
-**Dataset Structure:**
+Dataset Structure:
 
 * Train Set
 * Validation Set
 * Test Set
 
-**Number of Classes:** 2 (Binary Classification)
+Number of Classes: 2 (Binary Classification)
 
