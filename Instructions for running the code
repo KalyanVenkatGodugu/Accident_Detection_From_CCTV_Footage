@@ -1,0 +1,46 @@
+# Instructions to Run the Project
+
+1. Open the Kaggle Notebook.
+
+2. Attach the dataset:
+
+   * Accident Detection from CCTV Footage
+   * https://www.kaggle.com/datasets/ckay16/accident-detection-from-cctv-footage
+
+3. Turn ON Internet in Kaggle settings (required for MobileNetV2).
+
+4. Run all cells from top to bottom.
+
+5. The notebook will:
+
+   * Load the dataset
+   * Preprocess images
+   * Train the CNN model
+   * Train the MobileNetV2 model
+   * Evaluate both models
+   * Generate accuracy/loss graphs
+   * Generate confusion matrix
+   * Generate classification report
+
+6. Output files generated:
+
+   * accuracy_curve.png
+   * loss_curve.png
+   * confusion_matrix.png
+
+7. To test a new image:
+
+   * Provide the image path in the prediction cell.
+   * Run the cell.
+   * The model will predict:
+
+     * Accident
+     * Non Accident
+
+## Expected Result
+
+CNN Accuracy: 62%
+
+MobileNetV2 Accuracy: 74%
+
+MobileNetV2 performed better and was selected as the final model.
